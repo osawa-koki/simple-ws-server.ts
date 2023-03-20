@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "@types/jest": "^29.4.0",
+    "@types/ws": "^8.5.4",
     "@typescript-eslint/eslint-plugin": "^5.54.0",
     "eslint": "^8.0.1",
     "eslint-config-standard-with-typescript": "^34.0.0",
@@ -30,6 +31,7 @@
     "typescript": "*"
   },
   "dependencies": {
-    "eslint-config-prettier": "^8.6.0"
+    "eslint-config-prettier": "^8.6.0",
+    "ws": "^8.13.0"
   }
 }
