@@ -6,5 +6,11 @@
   "repository": "https://github.com/osawa-koki/simple-ws-server.ts.git",
   "author": "osawa-koki <github@osawa.dev>",
   "license": "Apache-2.0",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "@types/ws": "^8.5.4"
+  },
+  "dependencies": {
+    "ws": "^8.13.0"
+  }
 }
