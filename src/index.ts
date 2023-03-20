@@ -18,6 +18,7 @@ server.on('connection', (socket) => {
     server.clients.forEach((client) => {
       if (client.readyState === WebSocket.OPEN) {
         client.send(message);
+        console.log(`Sent message: ${message} to client`)
       }
     });
   });
