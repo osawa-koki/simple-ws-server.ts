@@ -1,0 +1,10 @@
+{
+  "name": "simple-ws-server.ts",
+  "version": "1.0.0",
+  "description": "simple-ws-server.ts",
+  "main": "./src/index.ts",
+  "repository": "https://github.com/osawa-koki/simple-ws-server.ts.git",
+  "author": "osawa-koki <github@osawa.dev>",
+  "license": "Apache-2.0",
+  "private": false
+}
