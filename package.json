@@ -1,0 +1,38 @@
+{
+  "name": "simple-ws-server.ts",
+  "version": "1.0.0",
+  "description": "simple-ws-server.ts",
+  "main": "./src/index.ts",
+  "repository": "https://github.com/osawa-koki/simple-ws-server.ts.git",
+  "author": "osawa-koki <github@osawa.dev>",
+  "license": "Apache-2.0",
+  "private": false,
+  "scripts": {
+    "dev": "ts-node-dev ./src/index.ts",
+    "start": "nodemon --exec ts-node ./src/index.ts",
+    "lint": "eslint --ext .ts ./src --fix --max-warnings 0",
+    "prettify": "prettier --write ./src/**/*.ts",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.4.0",
+    "@types/ws": "^8.5.4",
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
+    "eslint": "^8.0.1",
+    "eslint-config-standard-with-typescript": "^34.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.0.0",
+    "jest": "^29.4.3",
+    "prettier": "^2.8.4",
+    "ts-jest": "^29.0.5",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "*"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^8.6.0",
+    "ws": "^8.13.0"
+  }
+}
