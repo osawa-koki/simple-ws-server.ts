@@ -1,6 +1,6 @@
 import WebSocket from 'ws';
 
-const server = new WebSocket.Server({ port: 8000, path: '/chat' });
+const server = new WebSocket.Server({ port: 8000, path: '/cable' });
 
 // CORSヘッダーを追加する
 server.on('headers', (headers) => {
